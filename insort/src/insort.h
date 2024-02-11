@@ -1,0 +1,1 @@
+int *insort(int[], int);
