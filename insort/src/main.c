@@ -9,4 +9,10 @@ int main(int argc, char *argv[])
 	for (int i; i < size; i++) {
 		printf("%d\n", sorted[i]);
 	}
+	printf("\nreinsort:\n");
+	int *resorted = reinsort(arr, size);
+	for (int i; i < size; i++) {
+		printf("%d\n", resorted[i]);
+	}
+
 }
