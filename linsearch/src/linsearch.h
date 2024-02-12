@@ -1,0 +1,1 @@
+int linsearch(int[], int);
